@@ -1,0 +1,9 @@
+@media (max-width:426px) {
+    .carousel-inner {
+        background-color: rgb(97, 65, 65);
+        height: 30vh;
+    }
+    .carousel-inner img{
+     width: auto !important;
+    }
+}

@@ -1,0 +1,9 @@
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color:#007BFF;
+}
+
+.container{
+    margin: 80px auto;
+}
