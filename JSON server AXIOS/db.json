@@ -1,0 +1,76 @@
+{
+  "datas": [
+    {
+      "id": "1",
+      "img": "https://imgd.aeplcdn.com/600x337/n/nma9q9b_1801081.jpg?q=80",
+      "name": "BMW",
+      "modal": "M5",
+      "price": "30.3",
+      "color": "Mate Black",
+      "color_code": "#2A425E"
+    },
+    {
+      "id": "2",
+      "img": "https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/vdat/submodels/audi_a6_audi-a6_2021-1645636320409.jpg?fill=18:11&resize=768:*",
+      "name": "AUDI",
+      "modal": "A6 55 TFSI",
+      "price": "20.1",
+      "color": "Glory White",
+      "color_code": "#99ACB0"
+    },
+    {
+      "id": "3",
+      "img": "https://imgd.aeplcdn.com/600x337/n/ttcd89b_1792023.jpg?q=80",
+      "name": "Mercedes-Benz",
+      "modal": "M5",
+      "price": "19",
+      "color": "Spectral blue",
+      "color_code": "#2A425E"
+    },
+    {
+      "id": "4",
+      "img": "https://www.bajajmall.in/emistore/media/catalog/product/f/o/fortuner_4x2_at_p_attitude_black_base_3.jpeg",
+      "name": "Toyota",
+      "modal": "Fortuner",
+      "price": "5.5",
+      "color": "Mate Black",
+      "color_code": "#131419"
+    },
+    {
+      "id": "045b",
+      "img": "https://www.motoroids.com/wp-content/uploads/2020/05/Ford-Mustang-John-Wick-1200x675.jpg",
+      "name": "Mustang",
+      "modal": "1969",
+      "price": "50",
+      "color": "Black",
+      "color_code": "#D7D9CC"
+    },
+    {
+      "id": "922d",
+      "img": "https://media.architecturaldigest.com/photos/66a914f1a958d12e0cc94a8e/16:9/w_1920,c_limit/DSC_5903.jpg",
+      "name": "Lemborigini",
+      "modal": "Revuelto ",
+      "price": "60",
+      "color": "Light Green",
+      "color_code": "#D5E301"
+    },
+    {
+      "id": "707e",
+      "img": "https://imgd.aeplcdn.com/664x374/n/cw/ec/55215/defender-exterior-right-front-three-quarter-3.jpeg",
+      "name": "Land Rover",
+      "modal": "Defender ",
+      "price": "2",
+      "color": "Santorini Black Metallic",
+      "color_code": "#120f10"
+    },
+    {
+      "id": "0706",
+      "img": "  https://imgd.aeplcdn.com/600x337/n/z8aeu3a_1590451.jpg",
+      "name": "Land Rover",
+      "modal": "Range Rover ",
+      "price": "3",
+      "color": "Lantau Bronze",
+      "color_code": "#b4aaa0"
+    }
+  ]
+}

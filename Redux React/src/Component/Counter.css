@@ -1,0 +1,73 @@
+/* Background and layout */
+.counter-wrapper {
+  height: 100vh;
+  background: #f7f9fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+/* Main card */
+.counter-box {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 100%;
+  max-width: 360px;
+}
+
+/* Heading */
+.counter-heading {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Count display */
+.counter-value {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #1e88e5;
+  margin-bottom: 30px;
+}
+
+/* Button container */
+.button-group {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+  background-color: #1e88e5;
+  color: #fff;
+  font-size: 1.4rem;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 70px;
+}
+
+.btn:hover {
+  background-color: #1565c0;
+  transform: translateY(-2px);
+}
+
+/* Reset button different shade */
+.reset {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.reset:hover {
+  background-color: #cfcfcf;
+}
