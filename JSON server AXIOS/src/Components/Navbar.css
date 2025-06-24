@@ -29,3 +29,26 @@ form {
     display: flex;
     justify-content: center;
 }
+/* for image previwe */
+.img-preview {
+  width: 100%;
+  display: flex;
+  gap: 1%;
+}
+
+.img-link-form {
+  width:60%;
+  height: auto;
+}
+
+.img-preview-form {
+  width: 40%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.img-preview-form img {
+  width:auto;
+  height: 100%;
+  border-radius: 8px;
+}

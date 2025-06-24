@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import './Navbar.css'
 import axios from 'axios'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
     const navigate = useNavigate()
@@ -49,7 +49,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Collections</a>
+                                <Link className="nav-link" to='/'>Home</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#">Blog</a>
@@ -64,7 +64,7 @@ const Navbar = () => {
                         </form>
                         <div className='mx-5'>
                             <button className="btn mx-3" onClick={addNewShow} style={{ backgroundColor: "#001AAA", color: "white" }}>Add new</button>
-                            <button className="btn" onClick={navigate('/dashboard')}style={{ backgroundColor: "#001AAA", color: "white" }} >Dhashboard</button>
+                            <button className="btn" onClick={() => navigate('/dashboard')} style={{ backgroundColor: "#001AAA", color: "white" }} >Dhashboard</button>
                         </div>
                     </div>
                 </div>
@@ -74,9 +74,14 @@ const Navbar = () => {
             <div className="form-parent" id='updateForm' ref={formRef}>
 
                 <form className="w-50 p-3 mx-auto shadow" onSubmit={handleForm}>
-                    <div className="mb-3">
-                        <label className="form-label">Image link</label>
-                        <input required type="text" className="form-control" value={data.img} name="img" onChange={handleChanges} />
+                    <div className="mb-3 img-preview">
+                        <div className='img-link-form'>
+                            <label className="form-label">Image link</label>
+                            <input required type="text" className="form-control" value={data.img} name="img" onChange={handleChanges} />
+                        </div>
+                        <div className='img-preview-form'>
+                            <img src={data.img} alt={data.name} />
+                        </div>
                     </div>
                     <div className="mb-3">
                         <label className="form-label">Name</label>

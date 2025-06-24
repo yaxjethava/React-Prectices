@@ -17,10 +17,10 @@ const CarCollaction = () => {
     useEffect(() => {
         show()
     }, [])
+
     return (
         <>
             <h1>Luxury Collection</h1>
-
             <div className="row">
                 {datas.map((val, i) => {
 

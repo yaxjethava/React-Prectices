@@ -1,0 +1,124 @@
+.car-table-container {
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.car-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.car-table th,
+.car-table td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.car-table thead {
+  background-color: #f5f5f5;
+}
+
+.table-img {
+  width: 120px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
+
+/* for edit for */
+form {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.form-parent {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f0f0a8;
+}
+
+/* for image previwe */
+.img-preview {
+  width: 100%;
+  display: flex;
+  gap: 1%;
+}
+
+.img-link-form {
+  width:60%;
+  height: auto;
+}
+
+.img-preview-form {
+  width: 40%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.img-preview-form img {
+  width:auto;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.submit-close-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.submit-close-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.submit-close-btn-div button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
