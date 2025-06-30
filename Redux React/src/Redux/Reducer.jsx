@@ -1,6 +1,5 @@
 const initialState = {
-    count: 0,
-    add:"add daat"
+    count: 0
 }
 
 export const createReducer = (state = initialState, action) => {
@@ -9,11 +8,11 @@ export const createReducer = (state = initialState, action) => {
             return { ...state, count: state.count + 1 }
 
         case "Dicrement":
-            if(state.count>1)
-            return { ...state, count: state.count - 1 }
+            if (state.count > 1)
+                return { ...state, count: state.count - 1 }
 
         case "Reset":
-            return { ...state, count: state.count = 0 }
+            return { count: state.count = 0 }
 
         default:
             return state

@@ -1,0 +1,87 @@
+.row {
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.car-card {
+    display: flex;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 20px;
+    /* min-width: 400px; */
+    max-width: 700px;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+}
+
+.car-image img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.car-image img:hover {
+    transform: scale(1.05);
+}
+
+.car-details {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.car-details h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.modal {
+    color: #555;
+    font-weight: 400;
+}
+
+.car-details p {
+    margin: 6px 0;
+    color: #333;
+}
+
+.view-btn {
+    margin-top: 15px;
+    padding: 10px 16px;
+    background: #0323da;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.view-btn:hover {
+    background: #00137c;
+}
+
+@media (max-width: 600px) {
+    .car-card {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .car-image img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .car-details {
+        padding: 16px;
+    }
+}

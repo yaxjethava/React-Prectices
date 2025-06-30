@@ -44,6 +44,15 @@
       "price": "8",
       "color": "Black Sapphire metallic",
       "color_code": "#000000"
+    },
+    {
+      "id": "def2",
+      "img": "https://www.motoroids.com/wp-content/uploads/2020/05/Ford-Mustang-John-Wick-1200x675.jpg",
+      "name": "fdfd",
+      "modal": "dfd",
+      "price": "3242",
+      "color": "Red",
+      "color_code": "#a52222"
     }
   ]
 }
